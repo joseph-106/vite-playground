@@ -1,1 +1,1 @@
-export { default as vite } from "./vite.png";
+export { default as vite } from "@/assets/img/vite.png";

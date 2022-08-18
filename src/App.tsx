@@ -1,4 +1,4 @@
-import { vite } from "./assets/img";
+import { vite } from "@/assets/img";
 
 function App() {
   return (
