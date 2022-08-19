@@ -1,0 +1,6 @@
+{
+  "headwind.classRegex": {
+    "javascriptreact": "(?:\\b(?:class|className)?\\s*=\\s*{?[\\\"\\']([_a-zA-Z0-9\\s\\-\\:/]+)[\\\"\\']}?)",
+    "typescriptreact": "(?:\\b(?:class|className)?\\s*=\\s*{?[\\\"\\']([_a-zA-Z0-9\\s\\-\\:/]+)[\\\"\\']}?)"
+  }
+}
