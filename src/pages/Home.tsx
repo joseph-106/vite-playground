@@ -9,6 +9,9 @@ const Home = () => {
       <Link to={"/counter"}>
         <LinkButton text={"Counter"} />
       </Link>
+      <Link to={"/todo"}>
+        <LinkButton text={"Todo"} />
+      </Link>
     </FlexContainer>
   );
 };

@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { Home, Counter } from "@/pages";
+import { Home, Counter, Todo } from "@/pages";
 
 const Router = () => {
   return (
@@ -8,6 +8,7 @@ const Router = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/counter" element={<Counter />} />
+          <Route path="/todo" element={<Todo />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </BrowserRouter>
